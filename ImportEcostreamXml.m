@@ -130,8 +130,7 @@ function [name, width, height, depth, x_location, z_location, orientation] = get
 end
 function value = getElementValueByTagName(dataCenterItem, elementTagName)
     % Get the label element. In this file, each
-    % item contains only one label.
-    disp(dataCenterItem.getElementsByTagName(elementTagName));
+    % item contains only one label.    
     element = dataCenterItem.getElementsByTagName(elementTagName).item(0);    
     value = element.getFirstChild.getData;
 end

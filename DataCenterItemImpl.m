@@ -28,7 +28,6 @@ classdef DataCenterItemImpl < handle
             dci.width = str2double(width);
             dci.height = str2double(height);
             dci.depth = str2double(depth);
-            dci.name = str2double(name);
             dci.positionX = str2double(positionX);
             dci.positionZ = str2double(positionZ);
             dci.orientation = str2double(orientation);
